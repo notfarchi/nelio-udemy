@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("First Commit");
+        String a = "Maria";
+        String b = "Joao";
+
+        System.out.println(a.hashCode());
+        System.out.println(b.hashCode());
     }
 }
